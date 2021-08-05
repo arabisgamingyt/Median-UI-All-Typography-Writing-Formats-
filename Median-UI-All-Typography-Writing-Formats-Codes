@@ -1,0 +1,336 @@
+<!--Median UI (All Typography & Writing Formats:-->
+
+<!--To Add Image With Caption:-->
+
+<table class='tr-caption-container'>
+  <tbody>
+    <tr>
+      <td>
+        <img alt="Image" class="fullImg" src="#"/>
+      </td>
+    </tr>
+    <tr>
+      <td class='tr-caption'>Caption Here</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--To Add Image Grid:-->
+
+<!--[ Grid Image ]-->
+<!--[ Change Image Name In alt="image 1/2/3/4" & Replace # With Image URL In data-src="#"]-->
+<div class='gridImage'>
+  <img alt="Image 1" class="lazy" data-src="#" src="#"/>
+  <img alt="Image 2" class="lazy" data-src="#" src="#"/>
+  <img alt="Image 3" class="lazy" data-src="#" src="#"/>
+  <img alt="Image 4" class="lazy" data-src="#" src="#"/>
+</div>
+
+<!--To Add Image With Show All Fuction:-->
+
+<input class='imageInput hidden' id='for-hideImage' type='checkbox'>
+<div class='hideImage'>
+  <img alt="Image 1" class="lazy" data-src="#" src="#"/>
+  <img alt="Image 2" class="lazy" data-src="#" src="#"/>
+  <img alt="Image 3" class="lazy" data-src="#" src="#"/>
+  
+  <div class='buttonImage'>
+    <img alt="Image 4 (Button Image)" class="lazy" data-src="#" src="#"/>
+    
+    <!--[ Button Image To Activate ]-->
+    <label for='for-hideImage' aria-label='Show all image'></label>
+  </div>
+
+  <!--[ Hide The Rest Image Here ]-->
+  <div class='showImage'>
+    <img alt="Image 5" class="lazy" data-src="#" src="#"/>
+    <img alt="Image 6" class="lazy" data-src="#" src="#"/>
+    <img alt="Image 7" class="lazy" data-src="#" src="#"/>
+    <img alt="Image 8" class="lazy" data-src="#" src="#"/>
+  </div>
+</div>
+
+<!--To Add Images With Scroll Layout (Works For Mobile Devices Only):-->
+
+<!--[ Scroll Image ]-->
+<div class="scrollImage">
+  <img
+    alt="Image 1"
+    class="lazy"
+    data-src="#"
+    src="#"
+  />
+  <img
+    alt="Image 2"
+    class="lazy"
+    data-src="#"
+    src="#"
+  />
+  <img
+    alt="Image 3"
+    class="lazy"
+    data-src="#"
+    src="#"
+  />
+  <img
+    alt="Image 4"
+    class="lazy"
+    data-src="#"
+    src="#"
+  />
+</div>
+
+
+
+<!--To Add Manual Related Post:-->
+
+<div class='postRelated'>
+ <!--[ Related title ]-->
+ <b>Read More:</b>
+
+ <ul>
+   <li><a href=#>Your Text 1</a></li>
+   <li><a href=#>Your Text 2</a></li>
+   <li><a href=#>Your Text 3</a></li>
+ </ul>
+</div>
+
+<!--To Add Post Break:-->
+
+<!--[ To break paragraphs apart ]-->
+<i class='separate'></i>
+
+<!--To Add  Paragraph Drop Cap:-->
+
+<p><span class='dropCap'>Big Text</span>Small Text</p>
+
+<!--To Add Block Quote:-->
+
+<blockquote><i>Your Text<br/><br/>
+
+<!--To Add Block Quote (Style 2):-->
+
+<blockquote class='style-1'>
+ <div>Your Text
+   <ul>
+     <li>Your Bullet Text 1</li>
+     <li>Your Bullet Text 2</li>
+   </ul>
+ </div>
+</blockquote>
+
+
+
+<!--To Add Table:-->
+
+<div class='table'>
+  <table style='white-space: nowrap;'>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+        <th>Column 4</th>
+        <th>Column 5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+        <td>00</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!--To Add Syntax Highlighter:-->
+
+<!--[ Change classname to html, css, or js ]-->
+<pre class='html'><code><i class='comment'>&lt;!DOCTYPE html&gt;</i>
+&lt;<i class='tag'>html</i> dir='<i class='blue'>ltr</i>' lang='<i class='blue'>en</i>'&gt;
+  <i class='comment'>&lt;!--[ &lt;head&gt; Open ]--&gt;</i>
+  &lt;<i class='tag'>head</i>&gt;
+    &lt;<i class='tag'>title</i>&gt;<span class='block'>Highlight Text</span>&lt;/<i class='tag'>title</i>&gt;
+  &lt;/<i class='tag'>head</i>&gt;
+  <i class='comment'>&lt;!--[ &lt;/head&gt; Close ]--&gt;</i>
+  
+  <i class='comment'>&lt;!--[ &lt;body&gt; Open ]--&gt;</i>
+  &lt;<i class='tag'>body</i>&gt;
+    &lt;<i class='tag'>p</i>&gt;<span>Your Codes Here!</span>&lt;/<i class='tag'>p</i>&gt;
+  &lt;/<i class='tag'>body</i>&gt;
+  <i class='comment'>&lt;!--[ &lt;/body&gt; Close ]--&gt;</i>
+&lt;/<i class='tag'>html</i>&gt;</code></pre>
+
+<!--To Add Show/Hide:-->
+
+<div class='spoiler'>
+  <input class='spoilerInput hidden' id='spoiler-01' type='checkbox' />
+  <div class='spoilerTitle'>
+    <!--[ Show/hide Title ]-->
+    <b>Your Text: </b>
+    <label for='spoiler-01'></label>
+  </div>
+  
+  <!--[ Show/hide content ]-->
+  <div class='spoilerContent'>
+    <p>Your Text 1</p>
+    
+    <p>Your Text 2</p>
+  </div>
+</div>
+To Add Accordion /Toggle Menu:
+
+<!--[ Accordion start ]-->
+<ul class='accordion'>
+  <!--[ Accordion line 1 ]-->
+  <li>
+    <div class='accorContent'>
+      <input class='accorMenu hidden' id='offaccor-menu1' name='accordion-menu' type='checkbox'/>
+      <label class='accorTitle' for='offaccor-menu1'>
+        <i class='accorIcon'></i>
+        
+        <!--[ Question ]-->
+        <span>Question 1</span>
+      </label>
+
+      <!--[ Answer ]-->
+      <div class='content'>
+        <p>Answer 1</p>
+      </div>
+    </div>
+  </li>
+  
+  <!--[ Accordion line 2 ]-->
+  <li>
+    <div class='accorContent'>
+      <input class='accorMenu hidden' id='offaccor-menu2' name='accordion-menu' type='checkbox'/>
+      <label class='accorTitle' for='offaccor-menu2'>
+        <i class='accorIcon'></i>
+        
+        <!--[ Question ]-->
+        <span>Question 2</span>
+      </label>
+
+      <!--[ Answer ]-->
+      <div class='content'>Asnwer 2</div>
+    </div>
+  </li>
+  
+  <!--[ Accordion line 3 ]-->
+  <li>
+    <div class='accorContent'>
+      <input class='accorMenu hidden' id='offaccor-menu3' name='accordion-menu' type='checkbox'/>
+      <label class='accorTitle' for='offaccor-menu3'>
+        <i class='accorIcon'></i>
+
+        <!--[ Question ]-->
+        <span>Question 3</span>
+      </label>
+
+      <!--[ Answer ]-->
+      <div class='content'>Answer 3</div>
+    </div>
+  </li>
+</ul>
+
+<!--To Add Note Block:-->
+
+<p class='note'><b>Your Text</b><br>Your Text</p>
+
+<!--To Add Note Block (Alert Sytle):-->
+
+<p class='note noteAlert'><b>Your Message</b><br>Your Message</p>
+
+<!--To Add External Link (Style 1):-->
+
+<a class='extLink' href='#'>Your Text</a><br>
+
+<!--To Add External Link (Style 2):-->
+
+<a class='extLink alt' href='#'>Your Text</a>
+
+<!--Buttons:-->
+
+<!--To Add Buttons:-->
+
+<a class='button' href='#'>Button</a>
+
+<!--To Add Download Buttons:-->
+
+<a class='button' href='#'><i class='icon download'></i>Download</a>
+
+<!--To Add Download Buttons (Transparent Style):-->
+
+<a class='button outline' href='#'><i class='icon download'></i>Download</a>
+
+<!--To Add Buttons (Share Style):-->
+
+<a class='button' href='#'><i class='icon demo'></i>Share</a><br>
+
+<!--To Add Buttons (Buy Now Style):-->
+
+<a class='button' href='#'><i class='icon cart'></i>Buy Now</a><br>
+
+<!--To Add Buttons (Whatapp Style):-->
+
+<a class='button whatsapp' href='#'><i class='icon whatsapp'></i>Whatsapp</a><br>
+
+<!--To Add Download Link:-->
+
+<div class='downloadInfo'>
+  <!--[ Change data-text='Exe' To Change File Type]-->
+  <span class='fileType' data-text='Exe'></span>
+  <div class='fileName'>
+    <!--[ File Name, Change It With Your Own File Name]-->
+    <span>File Name.exe</span>
+    <span class='fileSize'>0 B</span>
+  </div>
+  
+  <!--[ Download link (Chnage # With URL In href='#'To Add Download Link) ]-->
+  <a class='button fileLink' aria-label='Download' href='#'><i class='icon download'></i></a>
+</div>
+
+<!--To Add Lazy Youtube:-->
+
+<!--[ Lazy youtube ]-->
+<div class='lazyYoutube' data-embed='#'>
+  <div class='playBut'>
+    <svg class='svg-play' viewbox='0 0 213.7 213.7'><polygon class='triangle' points='73.5,62.5 148.5,105.8 73.5,149.1'></polygon><circle class='circle' cx='106.8' cy='106.8' r='103.3'></circle></svg>
+  </div>
+</div>
+
+<!--To Add Reference:-->
+
+<p class='postReference'><i>Reference:<br>Your Text</i></p></div>
+<div class='postAd'>
+</div>
+<script type='application/ld+json'>{
